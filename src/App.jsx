@@ -3,7 +3,7 @@ import EstilosGlobais from "./componentes/estilosGlobais"
 import Cabecalho from "./componentes/cabecalho"
 import BarraLateral from "./componentes/barraLateral"
 import bannerBackground from './assets/banner.png'
-import Banner from "./componentes/tituloEstilizado"
+import Banner from "./componentes/banner"
 import Galeria from "./componentes/galeria"
 import fotos from "./fotos.json"
 import { useEffect, useState } from "react"
@@ -75,8 +75,8 @@ const App = () => {
           <BarraLateral />
           <ConteudoGaleria>
             <Banner
-              bannerBackground={bannerBackground}
-              texto='A galeria mais completa de fotos do espaço!'
+              texto='A galeria mais bonita de fotos do espaço!'
+              backgroundImage={bannerBackground}
             />
             <Galeria
               fotos={fotosDaGaleria}

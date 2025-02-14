@@ -47,7 +47,7 @@ function Rodape() {
                     </a>
                 </li>
             </IconeContainer>
-            <RodapeTexto>Desenvolvido por Alura.</RodapeTexto>
+            <RodapeTexto>Desenvolvido por Yan.</RodapeTexto>
         </RodapeEstilizado>
     );
 }
